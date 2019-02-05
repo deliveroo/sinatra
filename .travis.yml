@@ -8,7 +8,7 @@ sudo: false
 
 matrix:
   include:
-    - { rvm: 2.5.3, env: rack=master }
+    - { rvm: 2.5.3, env: rack=1.6.11 }
     - { rvm: 2.5.3, env: tilt=master }
   allow_failures:
     - env: tilt=master
